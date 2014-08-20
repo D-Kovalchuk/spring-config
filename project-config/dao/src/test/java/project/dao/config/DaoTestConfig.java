@@ -5,7 +5,7 @@ import org.springframework.context.annotation.*;
 import org.springframework.context.support.PropertySourcesPlaceholderConfigurer;
 import project.dao.Model;
 
-import static project.dao.config.PropertyNames.JDBC_URL;
+import static project.dao.config.Placeholders.JDBC_URL;
 
 /**
  * Created by dimon on 18.08.14.
