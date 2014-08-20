@@ -11,11 +11,9 @@ import static project.dao.config.PropertyNames.JDBC_URL;
  * Created by dimon on 18.08.14.
  */
 @Configuration
-@PropertySources({
-        @PropertySource("classpath:dao-default.properties"),
-        @PropertySource("classpath:dao-test.properties")
-})
 @Import(DaoConfig.class)
+@PropertySource("classpath:dao-default.properties")
+@PropertySource("classpath:dao-test.properties")
 public class DaoTestConfig {
 
     @Value(JDBC_URL)
