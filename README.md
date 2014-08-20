@@ -1,8 +1,6 @@
 spring-config
 =============
 
-show case: modular spring config with properies overrides in root module
-
 
 This example shows how to manage configurations files in a modular spring application.
 Application have two functional modules: dao and web; and one root module where we override default configuration properties.
